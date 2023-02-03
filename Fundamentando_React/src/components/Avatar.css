@@ -1,0 +1,15 @@
+.avatar {
+  /*box-sizing: initial; Faz com que não exprema a imagem para caber no elemento*/
+  width: 3rem;
+  height: 3rem;
+  border-radius: 8px;
+    /*Traço contornando a parte externa da borda*/
+}
+
+.avatar-with-border {
+  width: calc(3rem + 12px);
+  height: calc(3rem + 12px);
+  border-radius: 8px;
+  border: 4px solid var(--gray-800);
+  outline: 2px solid var(--blue-500)
+}
